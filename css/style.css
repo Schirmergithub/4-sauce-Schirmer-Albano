@@ -3,34 +3,33 @@
 
 /* color theme */ 
 
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('/w3images/onepage_restaurant.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.w3-theme-l5 {color:#000 !important; background-color:#fff9f2 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#feebd4 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#fdd7a9 !important}
+.w3-theme-l2 {color:#000 !important; background-color:#fcc37f !important}
+.w3-theme-l1 {color:#000 !important; background-color:#fbb054 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#f98f0d !important}
+.w3-theme-d2 {color:#fff !important; background-color:#e37f06 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#c66f05 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#aa5f04 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#8e5004 !important}
 
-<style>
-.w3-theme {
-color:#fff !important;background-color:#3f51b5 !important}
-.w3-theme-light {
-color:#000 !important;background-color:#e8eaf6 !important}
-.w3-theme-dark {
-color:#fff !important;background-color:#1a237e !important}
-.w3-theme-l5 {
-color:#000 !important;background-color:#e8eaf6 !important}
-.w3-theme-l4 {
-color:#000 !important;background-color:#c5cae9 !important}
-.w3-theme-l3 {
-color:#000 !important;background-color:#9fa8da !important}
-.w3-theme-l2 {
-color:#fff !important;background-color:#7986cb !important}
-.w3-theme-l1 {
-color:#fff !important;background-color:#5c6bc0 !important}
-.w3-theme-d1 {
-color:#fff !important;background-color:#3949ab !important}
-.w3-theme-d2 {
-color:#fff !important;background-color:#303f9f !important}
-.w3-theme-d3 {
-color:#fff !important;background-color:#283593 !important}
-.w3-theme-d4 {
-color:#fff !important;background-color:#1a237e !important}
-.w3-theme-action {
-color:#fff !important;background-color:#311b92 !important}
-.w3-text-theme {
-color:#1a237e !important}
-</style>
+.w3-theme-light {color:#000 !important; background-color:#fff9f2 !important}
+.w3-theme-dark {color:#fff !important; background-color:#8e5004 !important}
+.w3-theme-action {color:#fff !important; background-color:#8e5004 !important}
+
+.w3-theme {color:#000 !important; background-color:#fa9b2a !important}
+.w3-text-theme {color:#fa9b2a !important}
+.w3-border-theme {border-color:#fa9b2a !important}
+
+.w3-hover-theme:hover {color:#000 !important; background-color:#fa9b2a !important}
+.w3-hover-text-theme:hover {color:#fa9b2a !important}
+.w3-hover-border-theme:hover {border-color:#fa9b2a !important}

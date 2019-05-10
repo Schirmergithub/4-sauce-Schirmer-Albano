@@ -1,152 +1,129 @@
 <!DOCTYPE html>
 <html>
 
-
     <head>
-          <!--Vertical Nav Bar-->
-    <ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#aboutus">About us</a></li>
-  <li><a href="#location">Location</a></li>
-  <li><a href="#sauces">Sauces</a></li>
-</ul>
-    <div style="margin-left: 25%; padding: 1px 16px; width: 100%; height: auto;">
-<img src="img/sauce.jpg"; height="auto"; width="75%">
-        
-  <h3>Welcome to Sauce</h3>
+        <h3>Welcome to Sauce</h3>
         <title>W3.CSS Template</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
         <link rel="stylesheet" href="css/style.css">
-
-    <title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>    
-body,h1,h5 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  background-image: url('/w3images/onepage_restaurant.jpg');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-
     </head>
-    
-<style>
-  
-    
-    <link rel="stylesheet">
-        </style>
-    
+
+
 
     <body>
+        <!--Vertical Nav Bar-->
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#aboutus">About us</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#sauces">Sauces</a></li>
+        </ul>
+        
+      
+            <img src="img/sauce.jpg" style="width: 100%; height: auto;">
 
-        <div class="bgimg w3-display-container w3-text-white">
-            <div class="w3-display-middle w3-jumbo">
+            <div class="bgimg w3-display-container w3-text-white">
+                <div class="w3-display-middle w3-jumbo">
+                </div>
+                <div class="w3-display-topleft w3-container w3-xlarge">
+                    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-theme-d1">menu</button>
+                    </p>
+                    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-theme-d1">contact</button></p>
+                </div>
             </div>
-            <div class="w3-display-topleft w3-container w3-xlarge">
-                <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-theme-d1">menu</button>
-                </p>
-                <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-theme-d1">contact</button></p>
-            </div>
-        </div>
 
-        <!-- Menu Modal -->
-        <div id="menu" class="w3-modal">
-            <div class="w3-modal-content w3-animate-zoom">
-                <div class="w3-container w3-theme-d1 w3-display-container">
-                    <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
-                    <h1>Sauce Collection</h1>
-                </div>
-                <div class="w3-container">
-                    <h5>Buffalo Man - <b>Spicy but Bearable</b></h5>
-                    <h5>Buffalo Grandpa - <b>Insanely Hot Habanero Buffalo sauce - No Refunds</b></h5>
-                    <h5>Stay Gold Pony Boy - <b>Peanut Satay and Honey</b></h5>
-                    <h5>Pirate Style - <b>A classic Jamaican mixture of spices and hot Peppers</b></h5>
-                    <h5>South Carolina Mustard - <b>Mustard lovers this one is for you.</b></h5>
-                    <h5>Greeko Suave - <b>Ouzo and Mediterranean spice glaze</b></h5>
-                    <h5>Morning Breath - <b>Freshly grated Parmesan and Garlic</b></h5>
-                    <h5>Soy Orange Glaze - <b>Made famous at Evenfall, here for you</b></h5>
-                    <h5>BBQ - <b>A straight shooting BBQ to coat your Wings and Ribs</b></h5>
-                </div>
-                
-                 <div class="w3-container w3-theme-d1">
-                    <h1>Wings</h1>
-                </div>
-                <div class="w3-container">
-                    <h5>SAUCE Snack (5 wings)<b> $5.75</b></h5>
-                    <h5>SAUCE Regular (10 wings)<b> $10.50</b></h5>
-                    <h5>SAUCE Large (15 wings)<b> $13.75</b></h5>
-                </div>
-                
-                 <div class="w3-container w3-theme-d1">
-                    <h1>Sides</h1>
-                </div>
-                <div class="w3-container">
-                    <h5>SAUCE boneless Half (Over 1/2 Pound -One Flavor) <b>$6.99</b></h5>
-                    <h5>SAUCE boneless Full (over a Pound - Up to Two Flavors) <b> One size fits all $13.75</b></h5>
-                </div>
-                
-                
-                 <div class="w3-container w3-theme-d1">
-                    <h1>Ribs</h1>
-                </div>
-                <div class="w3-container">
-                    <h5>5 Bones<b> The Cripiest, Meatiest Ribs you have ever had. $9.99</b></h5>
-                    <h5>10 Bones <b> These Ribs Make Baby Backs look like ... Babies. $19.00</b></h5>
-                </div>
-                <div class="w3-container w3-theme-d1">
-                    <h1>Burgers</h1>
-                </div>
-                <div class="w3-container">
-                    Served On Griddled Brioche Buns
-                    <h5>American Cheese Burger<b> Cheese, Lettuce Tomato, Onion, Pickles $6.75</b></h5>
-                    <h5>The B.E.C. <b> Bacon Egg and Cheese burger $6.75</b></h5>
-                    <h5>Chicago Burger <b> All the toppings of a Classic Chicago dog $6.75</b></h5>
-                    <h5>Cry Baby Burger <b>Habanero Sauce, BnB Jalapenos, and Peper Jack $6.75</b></h5>
-                    <h5>How Rueben Got his Groove Back <b> Housemade cole slaw and 10,000 Island Dressing $6.75</b></h5>
-                    <h5>The Fat Kid Burger <b>All the topping, and plenty of Napkins $7.45</b></h5>
-                    <h5>The Mullet Burger Burger <b> BBQ sauce, Cole Slaw, American Cheese$6.75</b></h5>
-                    <h5>Plain Plain Burger <b> A burger and Poll ... plain plain $6.35</b></h5>
-                </div>
-                <div class="w3-container w3-theme-d1">
-                    <h1>Sides</h1>
-                </div>
-                <div class="w3-container">
-                    <h5>French Fries <b>A heaping portion $1.99</b></h5>
-                    <h5>Cole Slaw <b> One size fits all $1.99</b></h5>
-                    <h5>SAUCE side <b> 2oz of any SAUCE $1.00</b></h5>
-                </div>
-            </div>
-        </div>
+            <!-- Menu Modal -->
+            <div id="menu" class="w3-modal">
+                <div class="w3-modal-content w3-animate-zoom">
+                    <div class="w3-container w3-theme-d1 w3-display-container">
+                        <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                        <h1>Sauce Collection</h1>
+                    </div>
+                    <div class="w3-container">
+                        <h5>Buffalo Man - <b>Spicy but Bearable</b></h5>
+                        <h5>Buffalo Grandpa - <b>Insanely Hot Habanero Buffalo sauce - No Refunds</b></h5>
+                        <h5>Stay Gold Pony Boy - <b>Peanut Satay and Honey</b></h5>
+                        <h5>Pirate Style - <b>A classic Jamaican mixture of spices and hot Peppers</b></h5>
+                        <h5>South Carolina Mustard - <b>Mustard lovers this one is for you.</b></h5>
+                        <h5>Greeko Suave - <b>Ouzo and Mediterranean spice glaze</b></h5>
+                        <h5>Morning Breath - <b>Freshly grated Parmesan and Garlic</b></h5>
+                        <h5>Soy Orange Glaze - <b>Made famous at Evenfall, here for you</b></h5>
+                        <h5>BBQ - <b>A straight shooting BBQ to coat your Wings and Ribs</b></h5>
+                    </div>
 
-        <!-- Contact Modal -->
-        <div id="contact" class="w3-modal">
-            <div class="w3-modal-content w3-animate-zoom">
-                <div class="w3-container w3-theme-d6">
-                    <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
-                    <h1>Contact</h1>
-                </div>
-                <div class="w3-container">
-                    <p>Reach out to us, For Pick-Up or Delivery</p>
-                    <form action="/action_page.php" target="_blank">
-                    
-                    <h1>Phone Number</h1>    
-                    <p>978-475-4769</p>  
-                        
-                    <h1>Address</h1>
-                        <p>19 Essex Street, Andover, Ma (right behind Memorial hall Library)</p>
-                        
-                        
-                    </form>
+                    <div class="w3-container w3-theme-d1">
+                        <h1>Wings</h1>
+                    </div>
+                    <div class="w3-container">
+                        <h5>SAUCE Snack (5 wings)<b> $5.75</b></h5>
+                        <h5>SAUCE Regular (10 wings)<b> $10.50</b></h5>
+                        <h5>SAUCE Large (15 wings)<b> $13.75</b></h5>
+                    </div>
+
+                    <div class="w3-container w3-theme-d1">
+                        <h1>Sides</h1>
+                    </div>
+                    <div class="w3-container">
+                        <h5>SAUCE boneless Half (Over 1/2 Pound -One Flavor) <b>$6.99</b></h5>
+                        <h5>SAUCE boneless Full (over a Pound - Up to Two Flavors) <b> One size fits all $13.75</b></h5>
+                    </div>
+
+
+                    <div class="w3-container w3-theme-d1">
+                        <h1>Ribs</h1>
+                    </div>
+                    <div class="w3-container">
+                        <h5>5 Bones<b> The Cripiest, Meatiest Ribs you have ever had. $9.99</b></h5>
+                        <h5>10 Bones <b> These Ribs Make Baby Backs look like ... Babies. $19.00</b></h5>
+                    </div>
+                    <div class="w3-container w3-theme-d1">
+                        <h1>Burgers</h1>
+                    </div>
+                    <div class="w3-container">
+                        Served On Griddled Brioche Buns
+                        <h5>American Cheese Burger<b> Cheese, Lettuce Tomato, Onion, Pickles $6.75</b></h5>
+                        <h5>The B.E.C. <b> Bacon Egg and Cheese burger $6.75</b></h5>
+                        <h5>Chicago Burger <b> All the toppings of a Classic Chicago dog $6.75</b></h5>
+                        <h5>Cry Baby Burger <b>Habanero Sauce, BnB Jalapenos, and Peper Jack $6.75</b></h5>
+                        <h5>How Rueben Got his Groove Back <b> Housemade cole slaw and 10,000 Island Dressing $6.75</b></h5>
+                        <h5>The Fat Kid Burger <b>All the topping, and plenty of Napkins $7.45</b></h5>
+                        <h5>The Mullet Burger Burger <b> BBQ sauce, Cole Slaw, American Cheese$6.75</b></h5>
+                        <h5>Plain Plain Burger <b> A burger and Poll ... plain plain $6.35</b></h5>
+                    </div>
+                    <div class="w3-container w3-theme-d1">
+                        <h1>Sides</h1>
+                    </div>
+                    <div class="w3-container">
+                        <h5>French Fries <b>A heaping portion $1.99</b></h5>
+                        <h5>Cole Slaw <b> One size fits all $1.99</b></h5>
+                        <h5>SAUCE side <b> 2oz of any SAUCE $1.00</b></h5>
+                    </div>
                 </div>
             </div>
-        </div>
-   </body>
-</html>
+
+            <!-- Contact Modal -->
+            <div id="contact" class="w3-modal">
+                <div class="w3-modal-content w3-animate-zoom">
+                    <div class="w3-container w3-theme-d6">
+                        <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                        <h1>Contact</h1>
+                    </div>
+                    <div class="w3-container">
+                        <p>Reach out to us, For Pick-Up or Delivery</p>
+                        <form action="/action_page.php" target="_blank">
+
+                            <h1>Phone Number</h1>    
+                            <p>978-475-4769</p>  
+
+                            <h1>Address</h1>
+                            <p>19 Essex Street, Andover, Ma (right behind Memorial hall Library)</p> 
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <p>About us</p>
+            </body>
+        </html>
